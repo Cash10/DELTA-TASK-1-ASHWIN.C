@@ -7,7 +7,9 @@ for i in Folder{1..100}; do   # This is acting like a for loop from i=1 to i=100
     mkdir -p $i               #THIS LINE IS CREATING 100 FOLDERS
     touch $i/$i.txt           #THIS LINE IS USED TO CREATE 100 FILES IN THE RESPECTIVE FOLDER
     chmod 700 $i              #THIS LINE IS USED TO SET PERMISSIONS
-echo "CREATING FOLDERS"
+
 done
+
+echo "CREATING FOLDERS"
 
 
